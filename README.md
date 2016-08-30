@@ -1,4 +1,3 @@
-Dan Mattwig
 
 This is a repository for my portfolio website. It is built using Grav and hosted with AWS. 
 
