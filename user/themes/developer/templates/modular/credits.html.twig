@@ -1,0 +1,15 @@
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+  <ul class="list-unstyled">
+    {% for item in collection %}
+      <li>
+        {% if item.header.link %}
+          <a href="{{ item.header.link }}" target="_blank"><i class="fa fa-external-link"></i> {{ item.title }}</a>
+        {% else %}
+          {{ item.content }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

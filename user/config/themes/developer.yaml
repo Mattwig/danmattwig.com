@@ -1,0 +1,72 @@
+enabled: true
+
+# Profile
+profile:
+  name: "Dan Mattwig"
+  desc: "Web Developer"
+  avatar_url: "user/themes/developer/assets/images/profile.jpg"
+  informations:
+    - icon: "map-marker"
+      label: "Location"
+      url: ""
+      text: "Seattle, WA"
+
+    - icon: "envelope-o"
+      label: "Email"
+      url: "mailto:dmattwig@gmail.com"
+      text: "dmattwig@gmail.com"
+
+    - icon: "link"
+      label: "Website"
+      url: "http://danmattwig.com"
+      text: "http://danmattwig.com"
+
+    - icon: "phone"
+      label: "Phone"
+      text: "(440)453-4787"
+
+# Github
+github: "Mattwig"
+
+# Coderwall
+coderwall: ""
+
+# RSS Feed
+rss_feed:
+  url: "http://feeds.feedburner.com/TechCrunch/startups"
+  limit: 3
+  effect: "slideFastSynced" # valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
+
+# Linkedin
+linkedin: "#"
+
+# Social Networks
+social:
+  networks:
+    - url: "https://twitter.com/dmattwig"
+      icon: "twitter"
+      title:
+
+    - url: "https://plus.google.com/u/0/107103379372083773456"
+      icon: "google-plus"
+      title:
+
+    - url: "https://www.linkedin.com/pub/daniel-mattwig/57/602/594"
+      icon: "linkedin"
+      title:
+
+    - url: "https://github.com/Mattwig"
+      icon: "github-alt"
+      title:
+
+    - url: "https://www.facebook.com/dan.mattwig"
+      icon: "facebook"
+      title:
+
+# Grav streams
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      paths:
+        - user/themes/developer

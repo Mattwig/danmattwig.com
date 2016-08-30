@@ -1,0 +1,16 @@
+title: 'Dan Mattwig'
+author:
+  name: 'Dan Mattwig'
+  email: dmattwig@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Dan Mattwig Portfolio '
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
